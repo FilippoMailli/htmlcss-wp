@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+body {
+    background-color: lightgrey;
+}
+
+.container {
+    width: 60vw;
+    margin: 0 auto;
+}
+
+header {
+    position: relative;
+    height: 200px;
+    background-color: brown;
+    margin: 10px 0 0 0;
+    border: 3px solid white;
+}
+
+.contained {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: blue;
+    border: 3px solid white;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    color: white;
+}
+
+.titolo2 {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h3 {
+    font-size: 16px;
+    text-align: center;
+    color: white;
+}
+
+.barra {
+    position: relative;
+    height: 50px;
+    background-color: black;
+    margin-bottom: 10px;
+}
+
+.row {
+    position: relative;
+    height: 500px;
+}
+
+.contbarra {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h4 {
+    color: white;
+    font-size: 12px;
+    text-align: center;
+}
+
+.box {
+    float: left;
+    margin-right: 15px;
+}
+
+aside {
+    position: relative;
+    width: 25%;
+    height: 100%;
+    background-color: blue;
+    float: left;
+}
+
+main {
+    width: 46%;
+    height: 100%;
+    float: left;
+    padding: 0 10px;
+    margin: 0 2%;
+    background-color: grey;
+}
+
+.sopra {
+    position: absolute;
+    top: 0;
+}
+
+.mezzo {
+    position: absolute;
+    top: 33%;
+}
+
+.sotto {
+    position: absolute;
+    top: 66%;
+}
+
+footer {
+    height: 100px;
+    margin: 10px 0;
+    background-color: antiquewhite;
+}
